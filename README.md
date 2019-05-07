@@ -5,4 +5,4 @@ In even divs the image is on the left and the text is on the right. In odd divs 
 (400px).
 
 <strong>Breakpoint</strong><br>
-At resolution of less than 600px the divs build up vertically with text following the image (regardless of even parity).
+When resolution is less than 600px the divs build up vertically with text following the image (regardless of even parity).
