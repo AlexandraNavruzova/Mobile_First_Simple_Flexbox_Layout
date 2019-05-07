@@ -1,0 +1,32 @@
+body {
+    margin: 10%;
+}
+div {
+    display: flex;
+    flex-direction: column;
+}
+img {   
+    max-height: 80%;
+    max-width: 100%;
+    align-self: center;
+}
+
+@media (min-width: 600px) {
+    div {
+        flex-direction: row;
+        height: 400px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    div:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+    p {
+        width: 50%;
+    }
+    img { 
+        flex: initial;
+        max-width: 50%;
+        max-height: 100%;
+    }
+}
